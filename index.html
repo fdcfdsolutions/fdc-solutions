@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Podkova:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <title>FDC Solutions</title>
+  </head>
+  <body>
+    <header class="header-area">
+      <!-- site-navbar start -->
+      <div class="navbar-area">
+        <div class="container">
+          <nav class="site-navbar">
+            <!-- site logo -->
+            <a href="./index.html" class="site-logo"
+              ><img src="./assets/logo.png" alt=""
+            /></a>
+
+            <!-- site menu/nav -->
+            <ul>
+              <li><a href="#section-01">Home</a></li>
+              <li><a href="#section-02">About Us</a></li>
+              <li><a href="#section-04">Projects</a></li>
+              <li><a href="#section-06">Collabration</a></li>
+              <li><a href="#section-06">Blogs/news</a></li>
+              <li><a href="#section-06">Resources</a></li>
+              <li><a href="#section-06">Contact Us</a></li>
+            </ul>
+
+            <!-- nav-toggler for mobile version only -->
+            <button class="nav-toggler">
+              <span></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+      <!-- navbar-area end -->
+    </header>
+    <!-- ------------------Hero section------------------ -->
+    <section class="section-01" id="section-01">
+      <div class="carousel">
+        <div class="carousel-slides">
+          <img src="./assets/1.jpg" alt="Image 1" />
+          <img src="./assets/2.jpg" alt="Image 2" />
+          <img src="./assets/3.jpg" alt="Image 3" />
+          <img src="./assets/4.jpg" alt="Image 3" />
+        </div>
+        <button class="prev cbutton" onclick="prevSlide()">
+          <i class="ri-arrow-left-line"></i>
+        </button>
+        <button class="next cbutton" onclick="nextSlide()">
+          <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+
+      <div class="container1">
+        <h1>We are Creating</h1>
+        <h1>a Future</h1>
+      </div>
+      <a href="#section-02" class="scroll_down" id="scroll_down"> </a>
+    </section>
+    <!-- ------------------About section------------------ -->
+    <section class="section-02" id="section-02">
+      <div class="container2">
+        <div class="left">
+          <img src="./assets/about.jpg" alt="img" height="350" />
+        </div>
+        <div class="right">
+          <div class="heading">
+            <div class="hleft"></div>
+            <div class="hright">
+              <h1>About us</h1>
+            </div>
+          </div>
+          <p>
+            Welcome to FlowDynamics CFD Solutions! We are a dedicated team of
+            Computational Fluid Dynamics (CFD) analysts specializing in
+            providing innovative solutions to a wide array of problems. With a
+            focus on thermal analysis, we tackle complex challenges ranging from
+            lithium-ion battery stacks to windmills and thermosyphons. Our
+            expertise extends to diverse applications, ensuring that industries,
+            academic researchers, and Ph.D. candidates receive tailored
+            solutions to their CFD problems.
+          </p>
+          <a>Know More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="section-03" id="section-03">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Our Insights</h1>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <h1>10+</h1>
+          <p>Projects</p>
+        </div>
+        <div class="card">
+          <h1>5+</h1>
+          <p>Domains</p>
+        </div>
+        <div class="card">
+          <h1>20+</h1>
+          <p>
+            Years of <br />
+            Experience
+          </p>
+        </div>
+        <div class="card">
+          <h1>15+</h1>
+          <p>Working <br />Experts</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-04" id="section-04">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Our Projects</h1>
+        </div>
+      </div>
+      <div class="project-conatiner">
+        <div class="card">
+          <img src="./assets/project.png" alt="img" />
+          <h2>Turbalence Models</h2>
+          <a>Know More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="card">
+          <img src="./assets/project.png" alt="img" />
+          <h2>Multiphase Flow Models</h2>
+          <a class="abtn">Know More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="card">
+          <img src="./assets/project.png" alt="img" />
+          <h2>Combustion Models</h2>
+          <a class="abtn">Know More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="card">
+          <img src="./assets/project.png" alt="img" />
+          <h2>Radiation Models</h2>
+          <a class="abtn">Know More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="section-05" id="section-05">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Customer Testimonials</h1>
+        </div>
+      </div>
+      <div class="container5">
+        <div class="customer-container">
+          <div class="customer">
+            <img src="./assets/people-1.jpg" alt="customerimg" />
+            <h2>Peter Parker</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              aliquam, provident aut tempore quidem laudantium explicabo at
+              tempora sint magni. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Obcaecati, ex eum sit tempora cum alias?
+            </p>
+          </div>
+          <div class="customer">
+            <img src="./assets/people-2.jpg" alt="customerimg" />
+            <h2>Peter Parker</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              aliquam, provident aut tempore quidem laudantium explicabo at
+              tempora sint magni. Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Reiciendis aspernatur itaque libero magnam minus
+              sapiente!
+            </p>
+          </div>
+          <div class="customer">
+            <img src="./assets/people-3.jpg" alt="customerimg" />
+            <h2>Peter Parker</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+              aliquam, provident aut tempore quidem laudantium explicabo at
+              tempora sint magni. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Hic, optio officiis! Sunt, libero. Officiis,
+              quidem!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-06" id="section-06">
+      <div class="heading">
+        <div class="hleft"></div>
+        <div class="hright">
+          <h1>Contact US</h1>
+        </div>
+      </div>
+      <div class="container6">
+        <div class="contact-info">
+          <h2>Let's Work Together</h2>
+          <p><i class="ri-map-pin-2-fill"></i> RIT, Islampur, rajaramnagar</p>
+          <p>
+            <i class="ri-mail-fill"></i> Email:
+            <a href="mailto:abcedefg@gmail.com">fdcfdsolutions@gmail.com</a>
+          </p>
+          <p><i class="ri-phone-fill"></i> Prof. Ajinkya Patil: +91 8830897023</p>
+          <p><i class="ri-phone-fill"></i> Prof. R. Chavan: +91 9890837581</p>
+          <p>
+            <a href="www.linked.com"
+              ><i class="ri-linkedin-box-fill"></i> www.linkedin.com</a
+            >
+          </p>
+        </div>
+        <form class="form">
+          <input type="text" id="name" name="name" placeholder="Name" /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+          /><br />
+          <input
+            type="number"
+            id="email"
+            name="email"
+            placeholder="Phone"
+          /><br />
+          <textarea id="message" name="message" placeholder="Message"></textarea
+          ><br />
+          <button>Send</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container7">
+        <div class="left">
+          <h1>Follow us on</h1>
+          <div class="links">
+            <i class="ri-linkedin-box-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-facebook-box-fill"></i>
+          </div>
+        </div>
+        <div class="right">
+          <p><i class="ri-map-pin-2-fill"></i> RIT, Islampur, rajaramnagar</p>
+          <p>
+            <i class="ri-mail-fill"></i> Email:
+            <a href="mailto:abcedefg@gmail.com">fdcfdsolutions@gmail.com</a>
+          </p>
+          <p><i class="ri-phone-fill"></i> Prof. Ajinkya Patil: +91 8830897023</p>
+          <p><i class="ri-phone-fill"></i> Prof. Randhir Chavan: +91 9890837581</p>
+        </div>
+      </div>
+      <div class="footerlists">
+        <ul>
+          <li><a href="#section-01">Home</a></li>
+          <li><a href="#section-02">about</a></li>
+          <li><a href="#section-04">Projects</a></li>
+          <li><a href="#section-06">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
